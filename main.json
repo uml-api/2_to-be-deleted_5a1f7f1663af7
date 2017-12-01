@@ -1,0 +1,85 @@
+{
+  "filez1": {
+    "guid0001": {
+      "content": "@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml",
+      "scheme_url": "http://s.plantuml.com/imgp/1c6-sequence-diagram.png"
+    },
+    "guid0002": {
+      "content": "@startuml
+
+(First usecase)
+(Another usecase) as (UC2)  
+usecase UC3
+usecase (Last\\nusecase) as UC4
+
+@enduml",
+      "scheme_url": "http://s.plantuml.com/imgp/1c6-use-case-diagram.png"
+    },
+    "guid0003": {
+      "content": "@startuml
+Class01 <|-- Class02
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 -- Class10
+@enduml",
+      "scheme_url": "http://s.plantuml.com/imgp/1c6-class-diagram.png"
+    },
+    "guid0004": {
+      "content": "@startuml
+:Hello world;
+:This is on defined on
+several **lines**;
+@enduml",
+      "scheme_url": "http://s.plantuml.com/imgp/1c6-activity-diagram-beta.png"
+    },
+    "guid0005": {
+      "content": "@startuml
+
+[First component]
+[Another component] as Comp2  
+component Comp3
+component [Last\\ncomponent] as Comp4
+
+@enduml",
+      "scheme_url": "http://s.plantuml.com/imgp/1c6-component-diagram.png"
+    },
+    "guid0006": {
+      "content": "@startuml
+
+[*] --> State1
+State1 --> [*]
+State1 : this is a string
+State1 : this is another string
+
+State1 -> State2
+State2 --> [*]
+\n@enduml",
+      "scheme_url": "http://s.plantuml.com/imgp/1c6-state-diagram.png"
+    }
+  },
+  "items": [
+    {
+      "type": "group",
+      "title": "Group 1",
+      "items": [
+        {
+          "type": "file",
+          "guid": "guid0001",
+          "title": "Sequence diagram 1"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "guid": "guid0002",
+      "title": "Usecase diagram 200"
+    }
+  ]
+}
