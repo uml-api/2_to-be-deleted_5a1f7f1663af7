@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "filez1edited6": {
-=======
-  "filez1edited12": {
->>>>>>> 89121d891540384bb95901ed4329f3aa3349c1da
     "guid0001": {
       "content": "@startuml
 Alice -> Bob: Authentication Request
