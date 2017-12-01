@@ -1,5 +1,5 @@
 {
-  "filez1edited": {
+  "filez1edit": {
     "guid0001": {
       "content": "@startuml
 Alice -> Bob: Authentication Request
